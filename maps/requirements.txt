@@ -1,0 +1,6 @@
+functions-framework==3.0.0
+flask==2.0.3
+folium==0.16.0
+shapely==2.0.4
+openrouteservice==2.3.3
+werkzeug==2.0.3

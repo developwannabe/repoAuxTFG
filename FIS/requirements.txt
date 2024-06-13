@@ -1,0 +1,7 @@
+functions-framework==3.0.0
+flask==2.0.3
+werkzeug==2.0.3
+openrouteservice
+folium
+shapely.geometry
+geopandas
