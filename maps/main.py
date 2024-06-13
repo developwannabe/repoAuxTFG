@@ -7,9 +7,6 @@ from flask import jsonify
 import tempfile
 import os
 from flask import send_file
-import logging
-
-logging.basicConfig(level=logging.DEBUG)
 
 tkn = os.getenv("tkn")
 
@@ -92,7 +89,7 @@ def maps(request):
         )
         folium.GeoJson(route, name='route').add_to(map_cadiz)
     except Exception as e:
-        logging.info(e)
+        print(e)
 
     # Guardar el mapa en un archivo HTML temporal
     temp_dir = tempfile.gettempdir()

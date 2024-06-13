@@ -21,9 +21,9 @@ objects['small'] = fuzz.trapmf(objects.universe, [0, 0, 1, 3])
 objects['medium'] = fuzz.trimf(objects.universe, [1, 3, 5])
 objects['large'] = fuzz.trapmf(objects.universe, [3, 5, 10, 10])
 
-magnitude['info'] = fuzz.trapmf(magnitude.universe, [54, 55, 59, 60])
+magnitude['info'] = fuzz.trapmf(magnitude.universe, [54, 54, 59, 60])
 magnitude['advisory'] = fuzz.trapmf(magnitude.universe, [59, 60, 64, 65])
-magnitude['watch'] = fuzz.trapmf(magnitude.universe, [64, 65, 74, 75])
+magnitude['watch'] = fuzz.trapmf(magnitude.universe, [64, 65, 74, 74])
 
 path['open'] = fuzz.trapmf(path.universe, [0, 0, 2, 3])
 path['precaution'] = fuzz.trapmf(path.universe, [2, 3, 6, 7])

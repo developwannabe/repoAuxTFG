@@ -33,7 +33,7 @@ def evaluate(request):
 
 def evalVision(lugar):
     global client, thread, assistant_id, url
-    imagen_url = url + "/img/" + lugar + ".jpg"
+    imagen_url = url + "/image/imgVias/" + lugar + ".jpg"
     message = client.beta.threads.messages.create(
         thread_id=thread.id,
         role="user",

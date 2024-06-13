@@ -1,7 +1,6 @@
 functions-framework==3.0.0
 flask==2.0.3
 werkzeug==2.0.3
-openrouteservice
-folium
-shapely.geometry
-geopandas
+numpy==1.25.2
+scikit-fuzzy==0.4.2
+matplotlib==3.8.4
